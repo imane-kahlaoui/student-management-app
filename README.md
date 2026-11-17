@@ -11,8 +11,8 @@ Application mobile Android développée en **Kotlin** avec **Jetpack Compose**, 
 
 ## 📱 Aperçu de l'application
 
-| Écran d'accueil | Gestion des étudiants | Saisie des notes | Résultats & Validation |
-| :---: | :---: | :---: | :---: |
+| Écran d'accueil |                Ajout des étudiants                | Saisie des notes | Résultats & Validation |
+| :---: |:---------------------------------------------:| :---: | :---: |
 | ![Accueil](screenshots/accueil.jpeg) | ![Étudiants](screenshots/Ajout_etudiant.jpeg) | ![Notes](screenshots/Saisie_des_notes.jpeg) | ![Résultats](screenshots/Resultats.jpeg) |
 
 ## 🛠️ Technologies Utilisées
