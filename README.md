@@ -3,16 +3,23 @@
 Application mobile Android développée en **Kotlin** avec **Jetpack Compose**, conçue pour la gestion et le suivi des étudiants. Ce projet a été réalisé dans le cadre de mon parcours en ingénierie logicielle.
 
 ## 🚀 Fonctionnalités
-* **Interface Moderne :** Design entièrement conçu avec **Jetpack Compose**
-* **Navigation fluide :** Utilisation de **Navigation Compose** pour circuler entre les écrans.
-* **Gestion des données :** Stockage local optimisé avec des structures réactives (`mutableStateListOf`).
-* **Architecture propre :** Séparation claire des composants UI et de la logique métier.
+- **Interface Moderne :** Design entièrement conçu avec **Jetpack Compose**
+- **Navigation fluide :** Utilisation de **Navigation Compose** pour circuler entre les écrans.
+- **Gestion des données :** Stockage local optimisé avec des structures réactives (`mutableStateListOf`).
+- **Architecture propre :** Séparation claire des composants UI et de la logique métier.
+- **Validation Métier :** Validation rigoureuse nécessitant une moyenne générale $\ge 10.0$ **et** tous les modules $\ge 10.0$.
+
+## 📱 Aperçu de l'application
+
+| Écran d'accueil | Gestion des étudiants | Saisie des notes | Résultats & Validation |
+| :---: | :---: | :---: | :---: |
+| ![Accueil](screenshots/accueil.jpeg) | ![Étudiants](screenshots/Ajout_etudiant.jpeg) | ![Notes](screenshots/Saisie_des_notes.jpeg) | ![Résultats](screenshots/Resultats.jpeg) |
 
 ## 🛠️ Technologies Utilisées
-* **Langage :** Kotlin
-* **UI Framework :** Jetpack Compose, Material 3
-* **Environnement de développement :** Android Studio
-* **Outils de versioning :** Git & GitHub
+- **Langage :** Kotlin
+- **UI Framework :** Jetpack Compose, Material 3
+- **Environnement de développement :** Android Studio
+- **Outils de versioning :** Git & GitHub
 
 ## 📂 Structure du Projet
 ```text
