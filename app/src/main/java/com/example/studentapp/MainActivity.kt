@@ -402,11 +402,16 @@ fun EcranResultats(
                                 color = Color(0xFF1976D2),
                                 fontSize = 13.sp
                             )
+
+                            // Correction ici : s.modules.all au lieu de Module.all
+                            val tousModulesValides = s.modules.all { (it.note.toDoubleOrNull() ?: 0.0) >= 10.0 }
+                            val estValide = moy >= 10.0 && tousModulesValides
+
                             Text(
-                                if (moy >= 10.0) "✓ V" else "✗ NV",
+                                text = if (estValide) "✓ V" else "✗ NV",
                                 modifier = Modifier.weight(1f),
                                 fontWeight = FontWeight.Bold,
-                                color = if (moy >= 10.0) Color(0xFF2E7D32) else Color(0xFFC62828),
+                                color = if (estValide) Color(0xFF2E7D32) else Color(0xFFC62828),
                                 fontSize = 13.sp
                             )
                         }
